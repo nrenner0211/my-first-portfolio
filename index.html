@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
   </head>
 
     <body>
@@ -12,40 +15,67 @@
             <h1>
                 <a href="/">Nicolette Renner</a>
             </h1>
-            <ul>
-                <li>
-                  <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                  <a href="#experience">Experience</a>
-                </li>
-                <li>
-                  <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                  <a href="#resume">Resume</a>
-                </li>
-            </ul>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="#special-thanks">Special Thanks</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
 <!-- about me/hero section -->
-        <section>
-            <h2>About Me</h2>
+        <section id="about-me" class="hero">
+            <div class="hero-content">
+                <img class="hero-img" src="./assets/images/about-me.jpg" alt="A picture of me taken on the tracks of a large crane"> 
+                <div>
+                    <h2>About Me</h2>
+                    <article>
+                        My name is Nicolette Renner, but I go by Niki. I'm 27 years old and live in West Virginia. I've been a union construction worker, Ironworker specifically, for the last six years. I love my job and I've worked alongside some great people. But what inspired me to learn programming was my need for a creative outlet, and my desire to secure a safer, more stable career. I decided to take the plunge and enroll in an online bootcamp offered by <a href="https://www.charlotte.edu/">UNC Charlotte</a>, which I am set to graduate in October of 2022. I've always been a hard worker, and I can't wait to see where this adventure will take me!
+                    </article>
+                </div>
+                <div class="hero-fun-facts">
+                    <h3>Some fun facts about me:</h3>
+                    <ul>
+                        <li>&#127969; I'm a homeowner</li>
+                        <li>&#127859; I love to cook!</li>
+                        <li>&#128105;&#127995;&#8205;&#127981; I'm a certified welder</li>
+                        <li>&#128062; I have a dog named Zoro and a cat named Maxx</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-<!-- experience section -->
-        <section>
-            <h2>Experience</h2>
+<!-- projects section -->
+        <section id="projects">
+            <div class="flex-row">
+                <h2 class="section-title">Projects</h2>
+            </div>
         </section>
 
 <!-- contact me section -->
-        <section>
-            <h2>Contact Me</h2>
+        <section id="contact-me">
+            <h2 class="section-title">Contact Me</h2>
         </section>
 
-<!-- resume/footer section -->
-        <section>
-            <h2>Resume</h2>
+<!-- footer section -->
+        <section id="special-thanks">
+            <div class="footer">
+                <h2>Special Thanks</h2>
+                <p>
+                    From me to you... <br />
+                    Thanks for reading!❤️
+                </p>
+            </div>
         </section>
     </body>
 </html>
