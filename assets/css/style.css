@@ -137,6 +137,11 @@ header nav ul li a {
     background-color: var(--secondary-color);
 }
 
+.project-cards {
+    padding: 20px;
+    justify-content: space-around;
+}
+
 .section-title {
     padding-bottom: 20px;
     text-align: center;
