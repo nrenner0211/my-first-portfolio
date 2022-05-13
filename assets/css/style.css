@@ -147,8 +147,17 @@ header nav ul li a:hover {
 }
 
 .project-cards {
-    padding: 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    width: 400px;
+    height: 200px;
 }
 
 .section-title {
