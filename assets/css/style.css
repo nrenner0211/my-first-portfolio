@@ -28,6 +28,7 @@ header {
     top: 0;
     padding: 20px 35px;
     background-color: rgba(199, 249, 204, 0.8);
+    z-index: 9999;
 }
 
 header h1 {
@@ -147,16 +148,46 @@ header nav ul li a:hover {
 }
 
 .project-cards {
-    justify-content: space-evenly;
+    margin: 40px 20px;
+    padding: 40px 20px;
+    background-color: var(--tertiary-color);
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-card {
+    width: 100%;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+}
+
+.hero-card-text {
+    background-color: var(--primary-color);
+    width: 10%;
+}
+
+.hero-card-img {
+    width: auto;
+    border-radius: 15px;
 }
 
 .card {
+    margin: 20px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: var(--secondary-color); */
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
 }
 
 .card-img {
-    width: 400px;
+    width: 200px;
     height: 200px;
 }
 
