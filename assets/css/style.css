@@ -150,29 +150,41 @@ header nav ul li a:hover {
 .project-cards {
     margin: 40px 20px;
     padding: 40px 20px;
-    background-color: var(--tertiary-color);
-    border: 3px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--tertiary-color);
     box-shadow: 0 0 10px;
-    border-radius: 15px;
+    border-radius: 15px; 
     justify-content: center;
     width: 100%;
 }
 
-.hero-card {
-    width: 100%;
-    border: 3px solid var(--primary-color);
-    box-shadow: 0 0 10px;
-    border-radius: 15px;
+.project-cards h2 {
+    padding: 20px;
 }
 
-.hero-card-text {
-    background-color: var(--primary-color);
-    width: 10%;
+.hero-card {
+    width: 100%;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0 0 10px;
+}
+
+.hero-card h3 p {
+    color: var(--tertiary-color);
+    font-weight: lighter;
+    font-size: larger;
+    width: 20%;
+}
+
+.card-content {
+    color: var(--tertiary-color);
+    font-weight: lighter;
+    font-size: larger;
+    background-color: rgba(199,249,204,0);    
 }
 
 .hero-card-img {
-    width: auto;
-    border-radius: 15px;
+    width: 100%;
+    background-attachment: fixed;
 }
 
 .card {
@@ -183,12 +195,12 @@ header nav ul li a:hover {
     justify-content: space-evenly;
     /* background-color: var(--secondary-color); */
     box-shadow: 0 0 10px;
-    border-radius: 15px;
 }
 
 .card-img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+   
 }
 
 .section-title {
