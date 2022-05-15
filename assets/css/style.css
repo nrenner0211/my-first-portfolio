@@ -248,25 +248,34 @@ header nav ul li a:hover {
 /* contact me start */
 
 #contact-me {
-    background-color: var(--secondary-color);
+    background-image: url(../images/background3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.contact-img {
-    padding: 20px;
+.section-title img {
+    box-shadow: 0 0 10px;
+    border-radius: 25px;
     border: 3px solid var(--tertiary-color);
 }
 
 .contact-info ul li {
     font-size: 22px;
-    margin: 0 auto;
-    text-align: justify;
     list-style: none;
-    padding: 20px;
+    padding: 40px;
 }
 
-.LI-profile-badge {
+.contact-info h3 {
+    color: var(--text-color);
+}
+
+.contact-info h3:hover {
+    color: var(--tertiary-color);
+}
+
+.linkedin {
+    padding: 70px 0;
     float: right;
-    padding: 20px;
 }
 
 /* footer start */
@@ -319,6 +328,7 @@ header nav ul li a:hover {
     header h1 {
         width: 100%;
         text-align: center;
+        overflow: auto;
     }
 
     header nav ul {
@@ -336,6 +346,10 @@ header nav ul li a:hover {
         width: 100%;
     }
 
+    .flex-row {
+        overflow: auto;
+    }
+
     .hero, .hero-content, .hero-fun-facts {
         width: 100%;
     }
@@ -343,17 +357,17 @@ header nav ul li a:hover {
     .hero {
         text-align: center; 
     }
-/* needs updated below */
+
     .section-title {
-        width: 80%;
+        width: 50%;
     }
 
-    .trainer {
-        flex: 0 70%;
+    .contact-info {
+        flex: 1 70%;
     }
 
-    .contact-info iframe {
-        flex: 1 100%;
+    #projects {
+        width: 100%
     }
 }
 
@@ -365,57 +379,34 @@ header nav ul li a:hover {
         padding: 30px 15px;
     }
 
-    .step h3 {
+    .project-cards {
+        overflow: auto;
         flex: 1 100%;
         text-align: center;
     }
 
-    .step-info {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: center;
+    .hero-card img {
+        overflow: auto;
     }
 
-    .step-img {
+    .card img {
         flex: 0 32%;
         margin-right: 0;
         margin-top: 15px;
         margin-bottom: 15px;
-    }
-
-    .step-text {
-        flex: 100%;
     }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px){
-    .hero-form button {
-        width: 100%;
-    }
 
     .section-title {
-        width: 95%;
-    }
-
-    .intro p {
-        width: 100%;
-    }
-
-    .trainer {
-        flex: 0 100%;
+        width: 80%;
     }
 
     .contact-info {
         text-align: center;
-    }
-
-    .contact-info > * {
-        flex: 0 100%;
-    }
-
-    .contact-form {
-        order: 3;
+        padding-right: 100px;
     }
 }
