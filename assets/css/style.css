@@ -150,10 +150,14 @@ header nav ul li a:hover {
     background-position: center;
 }
 
+#projects p {
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
 .project-cards {
     margin: 40px 20px;
     padding: 40px 20px;
-    /* border-left: 3px solid var(--tertiary-color); */
     justify-content: center;
     width: 100%;
 }
@@ -162,41 +166,34 @@ header nav ul li a:hover {
     padding: 20px;
     align-items: center;
     font-weight: lighter;
-    color: var(--text-color);
+    color: var(--tertiary-color);
     float: right;
 }
 
 .hero-card {
     width: 100%;
+    color: var(--text-color);
     border: 3px solid var(--tertiary-color);
     box-shadow: 0 0 10px;
     background-color: rgba(187,181,189,0.8);
     border-radius: 15px;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    overflow: auto;
 }
 
 .hero-card:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    background: var(--text-color);
+    color: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: none;
 }
 
 .hero-card h3 {
-    color: var(--tertiary-color);
-    font-size: 26px; 
-
-}
-
-.hero-card p {
-    font-size: 20px;
-    font-weight: lighter;
-    color: var(--tertiary-color);
+    font-size: 32px;
 }
 
 .card-content {
-    color: var(--tertiary-color);
     font-weight: lighter;
     font-size: larger;
     text-align: center;
@@ -214,15 +211,21 @@ header nav ul li a:hover {
     margin: 30px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    color: var(--text-color);
     border: 2px solid var(--tertiary-color);
     box-shadow: 0 0 10px;   
     background-color: rgba(187,181,189,0.8);
     border-radius: 15px;
 }
 
+.card h3 {
+    font-size: 28px;
+    padding: 10px;
+}
+
 .card:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    background: var(--text-color);
+    color: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -230,7 +233,6 @@ header nav ul li a:hover {
 .card-img {
     width: 100%;
     margin: 0 auto;
-    object-fit: cover;
 }
 
 .section-title {
@@ -267,10 +269,12 @@ header nav ul li a:hover {
 
 .contact-info h3 {
     color: var(--text-color);
+    padding: 10px;
 }
 
 .contact-info h3:hover {
-    color: var(--tertiary-color);
+    color: var(--primary-color);
+    text-shadow: 0 0 10px;
 }
 
 .linkedin {
@@ -294,16 +298,16 @@ header nav ul li a:hover {
 }
 
 .footer h2 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
     margin: 0;
-    padding: 20px 35px;
+    padding: 30px 35px;
 }
 
 .footer p {
     font-size: 22px;
     font-weight: lighter;
-    padding: 0 0 30px 0;
+    padding: 0 0 50px 0;
 }
 
 /* footer end */
@@ -316,13 +320,12 @@ header nav ul li a:hover {
 
 /* media queries */
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-
 @media screen and (max-width: 980px){
     header {
-       padding-bottom: 0;
-       justify-content: center; 
-       position: relative;
+        padding-bottom: 0;
+        width: 100%;
+        flex-wrap: wrap;
+        overflow: auto;
     }
 
     header h1 {
@@ -338,7 +341,8 @@ header nav ul li a:hover {
     }
 
     header nav ul li a {
-        font-size: 20px;
+        font-size: 24px;
+        overflow: auto;
     }
 
     footer h2, footer div {
@@ -371,8 +375,6 @@ header nav ul li a:hover {
     }
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-
 @media screen and (max-width: 768px){
 
     section {
@@ -396,8 +398,6 @@ header nav ul li a:hover {
         margin-bottom: 15px;
     }
 }
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px){
 
