@@ -20,7 +20,7 @@ section {
     padding: 60px;
 }
 
-/* hearder start */
+/* header start */
 
 header {
     position: -webkit-sticky;
@@ -179,7 +179,7 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-align: center;
     padding-top: 10px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .hero-card:hover {
