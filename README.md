@@ -1,28 +1,20 @@
-# Hi! Thanks for looking at my first portfolio
+# portfolio-first-draft
 
-## My Name
+## About
 
-My name is Nicolette (Niki) Renner. I am attending UNC-Charlotte's full stack Coding Bootcamp, and loving it so far!
+Hello! 👋 If you're reading this, thank you for taking an interest in my portfolio. My name is Niki Renner, and this is my very first portfolio! Built from scratch with vanilla HTML and CSS.
 
-## About My Project
+## Links
 
-The purpose of this project was to showcase the work I'd done so far, and learn more in the process.
-This was the first portfolio that I coded from scratch. It's not perfect, but I'm pleased with how it turned out!
+[Repository](https://github.com/nrenner0211/my-first-portfolio)
 
-## Built With
-
-* HTML
-* CSS
-
-## What I Learned
-
-I learned I need to work on my time management, and not spend so much time messing with little details. (Sometimes) &#128517;
-
-## Deployed Website
-
-I used GitHub Pages to deploy this website.
-<https://nrenner0211.github.io/my-first-portfolio/>
+[Deployed - GitHub](https://nrenner0211.github.io/my-first-portfolio/)
 
 ![Screenshot of working website](./assets/images/screenshot.png)
 
-## Thank You
+## Contact
+
+Please feel free to connect with me on LinkedIn, or email me with any questions or concerns!
+
+[![Linkedin Badge](https://img.shields.io/badge/-nrenner0211-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nrenner0211/)](https://www.linkedin.com/in/nrenner0211/)
+[![Gmail Badge](https://img.shields.io/badge/-nrenner0211@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nrenner0211@gmail.com)](mailto:nrenner0211@gmail.com)
