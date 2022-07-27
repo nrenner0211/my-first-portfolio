@@ -10,8 +10,6 @@ Hello! 👋 If you're reading this, thank you for taking an interest in my portf
 
 [Deployed - GitHub](https://nrenner0211.github.io/my-first-portfolio/)
 
-![Screenshot of working website](./assets/images/screenshot.png)
-
 ## Contact
 
 Please feel free to connect with me on LinkedIn, or email me with any questions or concerns!
