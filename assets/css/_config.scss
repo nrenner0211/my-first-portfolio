@@ -1,0 +1,14 @@
+$font-stack: 'Heebo', Arial, sans-serif;
+$primary-color: #38A3A5;
+$secondary-color: #BBB5BD;
+$tertiary-color: #C7F9CC;
+$text-color: #0A122A;
+
+// set text color based on bg
+@function set-text-color($color) {
+    @if(lightness($color) > 70) {
+        @return #333;
+    } @else {
+        @return #fff;
+    }
+}

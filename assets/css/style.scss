@@ -1,0 +1,149 @@
+// import variables and functions
+@import 'config';
+@import 'utilities';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: $text-color;
+    font-family: $font-stack;
+    line-height: 1.6;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    padding: 4rem;
+    background-color: rgba(199, 249, 204, 0.8);
+
+    & h1 {
+        display: inline;
+        margin: auto;
+        font-weight: bold;
+        font-size: 2rem;
+        color: $primary-color;
+    }
+    
+    & a {
+        text-decoration: none;
+        color: $primary-color;
+        display: inline;
+    }
+    
+    & nav {
+        float: right;
+        margin: 1rem;
+    }
+    
+    & nav ul li {
+        display: inline;
+    }
+    
+    & nav ul li a {
+        padding: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    & nav ul li a:hover {
+        background: $primary-color;
+        color: $tertiary-color;
+        border-radius: 5rem;
+        text-shadow: none;
+    }
+}
+
+// hero
+.hero {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+
+    main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    img {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        border: 3px solid $secondary-color;
+    }
+
+    .intro {
+        text-align: center;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 48px;
+        color: $tertiary-color;
+        border-bottom: 3px solid $tertiary-color;
+        width: 30%;
+        margin: 0 auto;
+    }
+}
+
+.hero-fun-facts {
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: rgba(199, 249, 204, 0.8);
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    width: 40%;
+    margin: 3.5%;
+
+    h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 2rem;
+        color: $text-color;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.6rem;
+        padding: 0px 0px 30px 0px;
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
+// projects
+
+#projects {
+    background-color: $secondary-color;
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    overflow: scroll;
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    img {
+        object-fit: contain;
+    }
+
+    .card {
+        
+    }
+}
