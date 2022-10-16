@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
-    <title>My Portfolio</title>
+    <title>Nicolette Renner</title>
     <link rel="icon" type="image/jpg" href="./assets/images/favicon.ico"/>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,23 +30,25 @@
                         <a href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#special-thanks">Special Thanks</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
 <!-- about me/hero section -->
-        <section id="about-me" class="hero">
-            <main class="hero-content">
-                <img class="hero-img" src="./assets/images/contact-me.jpg" alt="A photo of me on my porch"> 
+        <section id="about-me">
+            <main>
+                <img src="./assets/images/contact-me.jpg" alt="A photo of me on my porch"> 
                 <div>
-                    <h2>About Me</h2>
+                    <div class="intro">About Me</div>
+                    
                     <article>
-                        My name is Nicolette Renner, but I go by Niki. I'm 27 years old and live in West Virginia. I've been a union construction worker, Ironworker specifically, for the last six years. I love my job, and I've had the privilege of working alongside some great people. But what inspired me to learn programming was my need for a creative outlet, and my desire to secure a safer, more stable career. I decided to take the plunge and enroll in an online bootcamp offered by <a href="https://www.charlotte.edu/">UNC Charlotte</a>, which I am set to graduate in October of 2022. I've always been a hard worker, and I can't wait to see where this adventure will take me!
+                        <p>Hello!</p>
+                        I'm Niki, aspiring full stack developer. At the core of my personality is a desire to understand the world around me. I enjoy learning new skills and putting them to use, so I welcome the challenge of evolving technology. I have a unique work history, but my skills and dedication have always shone through. For instance, I have a strong eye for detail that has proven me useful in many different settings, I am thorough and take pride in my work, and my super power is organization. 
+                    </article>
+                    <article>
+                        My favorite achievement outside of work has been owning my home. In my free time, I enjoy gaming, gardening, improving my home, and playing with my dogs.
                     </article>
                 </div>
                 <div class="hero-fun-facts">
@@ -60,103 +66,100 @@
 
 <!-- projects section -->
         <section id="projects">
-            <div class="section-title">
-                <h2>Projects</h2>
+
+            <div class="intro">
+                Projects
             </div>
-            <div class="project-cards flex-row">
-                <p>Click on the images to visit the deployed website!</p>
-                <div class="hero-card">
-                    <h3>dad-app</h3>
-                    <p>Javascript, Materialize.css, jQuery</p>
-                    <a href="https://nrenner0211.github.io/dad_app/" alt="link to dad-app">
-                    <img src="./assets/gifs/screen-capture (1).gif" alt="dad-app"
-                    width="100%" height="100%"/>
-                </div>
 
                 <div class="card">
-                    <div class="card-content">
-                        <h3>git-it-done</h3>
-                        <p>HTML, CSS, Javascript, Node.js</p>
-                        <a href="https://nrenner0211.github.io/git-it-done/" alt="link to deployed website">
-                        <img src="./assets/gifs/git-it-done.gif" alt="git-it-done walkthrough"
-                        width="100%" height="90%"/>
+                    <div class="card-body">
+                        <h3>dad-app</h3>
+                        <p>Javascript, Materialize.css, jQuery</p>
+                        <a href="https://nrenner0211.github.io/dad_app/" alt="link to dad-app">
+                            <img src="./assets/gifs/screen-capture (1).gif" alt="dad-app"
+                            />
                         </a>
                     </div>
                 </div>
 
                 <div class="card">
-                    <div class="card-content">
+                    <div class="card-body">
+                        <h3>git-it-done</h3>
+                        <p>HTML, CSS, Javascript, Node.js, REST API</p>
+                        <a href="https://nrenner0211.github.io/git-it-done/" alt="link to deployed website">
+                            <img src="./assets/gifs/git-it-done.gif" alt="git-it-done walkthrough"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
                         <h3>Run-Buddy</h3>
                         <p>HTML, CSS</p>
                         <a href="https://nrenner0211.github.io/run-buddy/" alt="link to Run-Buddy">
-                            <img src="./assets/images/run-buddy.png" alt="run-buddy screen capture"
-                            width="100%" height="90%" />
+                        <img src="./assets/images/run-buddy.png" alt="run-buddy screen capture"
+                        />
                         </a>
                     </div>
                 </div>
 
                 <div class="card">
-                    <div class="card-content">
+                    <div class="card-body">
                         <h3>README-generator</h3>
                         <p>Node.js, Inquirer</p>
-                        <!-- deploy to heroku and update -->
                         <a href="https://github.com/nrenner0211/laughing-umbrella" alt="link to repository">
                         <img src="./assets/gifs/readme-generator.gif" alt="README-generator walkthrough" 
-                        width="100%" height="90%"/>
+                        />
                         </a>
                     </div>
                 </div>
 
-                <div class="hero-card">
-                    <h3>Vault</h3>
-                    <p>Express.js, Sequelize, Handlebars</p>
-                    <a href="https://safe-escarpment-80538.herokuapp.com/" alt="Link to Vault">
-                    <img src="./assets/gifs/vault.gif" alt="Vault walkthrough"
-                    width="100%" height="100%"/>
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Vault</h3>
+                        <p>Express.js, MySQL, Sequelize, Handlebars</p>
+                        <a href="https://safe-escarpment-80538.herokuapp.com/" alt="Link to Vault">
+                        <img src="./assets/gifs/vault.gif" alt="Vault walkthrough"
+                        /></a>
+                    </div>
                 </div>
             </div>
         </section>
 
 <!-- contact me section -->
-        <section id="contact-me">
-            <div class="section-title">
-                <h2>Contact Me</h2>
-
-                <!-- <img src="./assets/images/contact-me.jpg" alt="A photo of me on my porch"
-                width="275px" height="275px"> -->
-                
+        <section id="contact">
+            <div class="intro">
+                Contact
             </div>
-            <div class="contact-info flex-row">
+            <div>
                 <ul>
                     <li>
-                        <h3>Email Address</h3>
-                        &#128231; <a href="mailto://nrenner0211@gmail.com">nrenner0211@gmail.com</a>
+                        <a href="https://github.com/nrenner0211"><i class="bi bi-github"></i> GitHub</a>
                     </li>
                     <li>
-                        <h3>Phone Number</h3>
-                        &#128242; <a href="tel:681.443.1530">681.443.1530</a>
+                        <a href="https://www.linkedin.com/in/nicolette-renner/"><i class="bi bi-linkedin"></i> LinkedIn</a>
                     </li>
                     <li>
-                        <h3>See More</h3>
-                        &#129299; <a href="https://github.com/nrenner0211">GitHub</a>
+                        <a href="tel:(681) 443-1530"><i class="bi bi-phone-vibrate"></i> (681) 443-1530</a>
+                    </li>
+                    <li>
+                        <a href="mailto://nrenner0211@gmail.com"><i class="bi bi-envelope-check"></i>  nrenner0211@gmail.com</a>
                     </li>
                 </ul>
-                <div class="linkedin">
-                    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="nicolette-renner" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nicolette-renner?trk=profile-badge"></a></div>
+            </div>
+            
+            <div class="card container-md">
+                <div class="p-3">
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+
+                <div class="p-3">
+                    <textarea class="mb-3 form-control"
+                    placeholder="Leave me some feedback! :-)" id="feedback" rows="10"></textarea>
                 </div>
             </div>
         </section>
-
-<!-- footer section -->
-        <section id="special-thanks">
-            <div class="footer">
-                <h2>Special Thanks</h2>
-                <p>
-                    From me to you... <br />
-                    Thanks for reading! &#128154;
-                </p>
-            </div>
-        </section>
+        
     </body>
 </html>
