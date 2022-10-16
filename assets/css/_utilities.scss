@@ -7,13 +7,11 @@
 
 .intro {
     text-align: center;
-    padding: 20px;
     font-weight: bold;
-    font-size: 48px;
-    color: $tertiary-color;
-    border-bottom: 3px solid $tertiary-color;
-    width: 30%;
-    margin: 0 auto;
+    font-size: 4rem;
+    color: darken($tertiary-color, 5%);
+    border-bottom: 3px solid darken($tertiary-color, 5%);
+    width: 100%;
 }
 
 .zoom {
