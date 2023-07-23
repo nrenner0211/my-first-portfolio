@@ -1,8 +1,8 @@
-# portfolio-first-draft
+# my-first-portfolio
 
 ## About
 
-Hello! 👋 If you're reading this, thank you for taking an interest in my portfolio. My name is Niki Renner, and this is my very first portfolio! Built from scratch with vanilla HTML and CSS.
+Hello! 👋 My name is Niki Renner, and this is my very first portfolio! Built from scratch with vanilla HTML and CSS.
 
 ## Links
 
